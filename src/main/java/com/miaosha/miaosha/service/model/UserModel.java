@@ -14,9 +14,22 @@ public class UserModel {
     private Integer age;
     private String registerMode;
     private String thirdPartyId;
-
+    private String telphone;
 
     private String encrptPassword;
+
+    /**
+     * Getter method for property <tt>telphone</tt>.
+     *
+     * @return property value of telphone
+     */
+    public String getTelphone() {
+        return telphone;
+    }
+
+    public void setTelphone(String telphone) {
+        this.telphone = telphone;
+    }
 
     /**
      * Getter method for property <tt>encrptPassword</tt>.
